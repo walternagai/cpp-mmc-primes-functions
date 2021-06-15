@@ -1,14 +1,14 @@
-# cpp-weekday-calculate-while
+# cpp-mmc-primes-functions
 
-Reescreva o programa main.cpp para várias datas válidas para calcular o dia da semana.
+O MDC (Máximo Divisor Comum) é utilizado em diversos algoritmos e aplicações computacionais. O [algoritmo de Euclides](https://pt.wikipedia.org/wiki/Algoritmo_de_Euclides) é a descrição mais simples para calcular o MDC. A implementação desse algoritmo pode ser feita com chamadas sucessivas a mesma função, ou seja, uma função recursiva ou como uma repetição de comandos, sem a necessidade de recursividade.
 
-**O programa deve parar quando ler uma data inválida**. 
+O MMC ([Mínimo Múltiplo Comum](https://pt.wikipedia.org/wiki/M%C3%ADnimo_m%C3%BAltiplo_comum)) de dois números pode ser calculado a partir do MDC entre esses dois números.
 
-Uma data inválida acontece quando dia, mês e ano possuem um valor não-válido.
+Um número é dito **[primo](https://pt.wikipedia.org/wiki/N%C3%BAmero_primo)** se é divisível por um e por ele mesmo. Em algumas situações computacionais, comparar se dois números são primos, denota que o MDC deles é igual a 1 (um).
 
-**Altere o código somente na função *main*. Nas demais funções não é preciso modificar.**
+Escreva um programa que leia dois números inteiros positivos para calcular o MMC e se ambos são números primos.
 
-**LEIA atentamente os comentários na função *main* para fazer as alterações**.
+O código da main.cpp já apresenta alguns comentários nas funções que podem auxiliar no desenvolvimento do programa.
 
 Confira se o repositório está criado em alguma das organizações GitHub:
 * [https://github.com/p7-m4-ecoi02-2021-1](https://github.com/p7-m4-ecoi02-2021-1)
@@ -16,10 +16,34 @@ Confira se o repositório está criado em alguma das organizações GitHub:
 
 Veja o **Feeback** no link *Pull requests* para aber se a saída do programa está de acordo com o esperado.
 
-## Exemplos de valores
+## Exemplos de entrada de dados e a saída esperada
 
-* dia = 12, mes = 5, ano = 2014, Mensagem = Segunda-feira
-* dia = 23, mes = 3, ano = 2007, Mensagem = Sexta-feira
-* dia = 12, mes = 8, ano = 1977, Mensagem = Sexta-feira
-* dia = 11, mes = 5, ano = 1944, Mensagem = Quinta-feira
-* dia = 0, mes = 0, ano = 0, Não é mostrada nenhuma mensagem.
+- ENTRADA: 2 5
+
+  MDC(2, 5) = 1
+  MMC(2, 5) = 10
+  2 e 5 sao primos.
+
+- ENTRADA: 2 8
+
+  MDC(2, 8) = 2
+  MMC(2, 8) = 8
+  2 e 8 não sao primos
+
+- ENTRADA: 211 19
+
+  MDC(211, 19) = 1
+  MMC(211, 19) = 4009
+  211 e 19 sao primos.
+
+- ENTRADA: 17 19
+
+  MDC(17, 19) = 1
+  MMC(17, 19) = 323
+  17 e 19 sao primos.
+
+- ENTRADA: 18 21
+
+  MDC(18, 21) = 3
+  MMC(18, 21) = 126
+  18 e 21 não sao primos.
