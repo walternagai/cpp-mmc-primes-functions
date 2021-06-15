@@ -20,30 +20,30 @@ Veja o **Feeback** no link *Pull requests* para aber se a saída do programa est
 
 - ENTRADA: 2 5
 
-  MDC(2, 5) = 1
-  MMC(2, 5) = 10
-  2 e 5 sao primos.
+    MDC(2, 5) = 1
+    MMC(2, 5) = 10
+    2 e 5 sao primos.
 
 - ENTRADA: 2 8
 
-  MDC(2, 8) = 2
-  MMC(2, 8) = 8
-  2 e 8 não sao primos
+    MDC(2, 8) = 2
+    MMC(2, 8) = 8
+    2 e 8 não sao primos
 
 - ENTRADA: 211 19
 
-  MDC(211, 19) = 1
-  MMC(211, 19) = 4009
-  211 e 19 sao primos.
+    MDC(211, 19) = 1
+    MMC(211, 19) = 4009
+    211 e 19 sao primos.
 
 - ENTRADA: 17 19
 
-  MDC(17, 19) = 1
-  MMC(17, 19) = 323
-  17 e 19 sao primos.
+    MDC(17, 19) = 1
+    MMC(17, 19) = 323
+    17 e 19 sao primos.
 
 - ENTRADA: 18 21
 
-  MDC(18, 21) = 3
-  MMC(18, 21) = 126
-  18 e 21 não sao primos.
+    MDC(18, 21) = 3
+    MMC(18, 21) = 126
+    18 e 21 não sao primos.
