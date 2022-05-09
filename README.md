@@ -10,10 +10,6 @@ Escreva um programa que leia dois números inteiros positivos para calcular o MM
 
 O código da main.cpp já apresenta alguns comentários nas funções que podem auxiliar no desenvolvimento do programa.
 
-Confira se o repositório está criado em alguma das organizações GitHub:
-* [https://github.com/p7-m4-ecoi02-2021-1](https://github.com/p7-m4-ecoi02-2021-1)
-* [https://github.com/p8-m4-ecoi02-2021-1](https://github.com/p8-m4-ecoi02-2021-1)
-
 Veja o **Feeback** no link *Pull requests* para aber se a saída do programa está de acordo com o esperado.
 
 ## Exemplos de entrada de dados e a saída esperada
@@ -28,7 +24,7 @@ Veja o **Feeback** no link *Pull requests* para aber se a saída do programa est
 
         MDC(2, 8) = 2
         MMC(2, 8) = 8
-        2 e 8 não sao primos
+        2 e 8 não sao primos.
 
 - ENTRADA: 211 19
 
